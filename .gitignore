@@ -1,0 +1,29 @@
+# Файлы базы данных (если используете SQLite)
+*.db
+*.sqlite
+
+# Логи
+logs/
+*.log
+
+# Кэш
+cache/
+tmp/
+
+# Конфигурация (если есть)
+config.php
+.env
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Composer (если вдруг подключите)
+/vendor/
+composer.lock
